@@ -1,5 +1,8 @@
 # CMake stuff
 CMakeFiles/
 CMakeCache.txt
-MakeFile
-cmakeinstall.cmake
+Makefile
+cmake_install.cmake
+
+# Build directory
+build/
