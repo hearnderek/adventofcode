@@ -3,6 +3,7 @@
 #include <string>
 
 #include "sonarsweep/sonarsweep.h"
+#include "windowsweep/windowsweep.h"
 
 int
 main(int argc, char * argv[]) {
@@ -18,9 +19,16 @@ main(int argc, char * argv[]) {
     sonarSweep();
     
     return 0;
+  } else if(command == "WindowSweep") {
+    std::cout << "Window Sweep\n";
+
+    windowSweep();
+    
+    return 0;
   } else {
     std::cout << "Try running one of the solutions:\n";
     std::cout << "    1: SonarSweep\n";
+    std::cout << "    2: WindowSweep\n";
   }
 
   return 0;
