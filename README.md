@@ -17,4 +17,9 @@ With my understanding, any function/class/etc that are defined within the cpp fi
 
 So this brings me to the question of how exactly to libraries decide what is and isn't visible to their users.
 
+## CMake related things I learned
+
+1. Might default to an older version of C++ even if you don't specifiy the one you want.
+2. You can add multiple inputs to a lib or a exe. Not sure how that works with shared object files though.
+
 

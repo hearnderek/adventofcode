@@ -6,3 +6,6 @@ cmake_install.cmake
 
 # Build directory
 build/
+
+# Xcode project directory
+x/
